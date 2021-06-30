@@ -25,8 +25,7 @@ function Home({ navigation }) {
                 <TouchableHighlight
                     style={styles.Button}
                     underlayColor="white"
-                    onPress={() => navigation.navigate('Razor Pay')}
-                >
+                    onPress={() => navigation.navigate('Razor Pay')}>
                     <Text style={styles.pay}>Pay Now</Text>
                 </TouchableHighlight></View>
 
